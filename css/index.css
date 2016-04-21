@@ -1,0 +1,23 @@
+body{
+ background-image: url(https://farm3.staticflickr.com/2658/4153625805_b3f328f87a_b.jpg);
+}
+.container{
+    background-color:#F5FCD0;
+    width: 20%; 
+    height: 10%;    
+    margin: 10px auto;
+    
+}
+#heart {
+    position:relative;
+    float:left;
+    left:50%;
+    
+}
+
+#start {
+    position:relative;
+    text-align:center;
+    width: 100%;
+    top:110px;
+}
