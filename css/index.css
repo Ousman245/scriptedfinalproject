@@ -1,24 +1,36 @@
-body{
- background-image: url(https://farm3.staticflickr.com/2658/4153625805_b3f328f87a_b.jpg);
+body {
+    background-image: url(http://www.joshushund.com/terragen_01-06/battlefield.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.container{
-    background-color:#F5FCD0;
-    width: 20%; 
-    height: 10%;    
+
+.container {
+    background-color: #F5FCD0;
+    width: 20%;
+    height: 10%;
     margin: 10px auto;
-    
 }
+
 #heart {
-    position:relative;
-    float:left;
-    left:50%;
-    
+    position: relative;
+    float: left;
+    left: 50%;
 }
 
 #start {
-    position:relative;
-    text-align:center;
+    position: relative;
+    text-align: center;
     width: 100%;
-    top:110px;
+    top: 110px;
 }
 
+#frontguy {
+    width: 800px;
+}
+
+#otherfrontguy {
+    position: absolute;
+    width: 800px;
+    right: 10%;
+    bottom: 0px;
+}
